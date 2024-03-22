@@ -44,16 +44,30 @@ nav{
 
 
 
-.header-text{
-    margin-top: 25%;
+.column{
+    margin-top: 21%;
+    /* margin:20px; */
+    /* padding-left: 15; */
     font-size: 30px;
     color: #000;
 }
 
-.header-text p{
-    font-size:40px;
+.column p{
+    font-size:35px;
     margin-top: 20px;
 }
+.column img{
+    margin-top: -25%;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+
 
 /* .header-text h1{
     font-size:60px;
@@ -73,9 +87,9 @@ nav{
 
 
 .menu-btn{
-    margin-top: 5%;
-    margin-left: 2%;
+    margin-top: 3%;
     border:1px solid #00ff4ce7;
+    background-color:#00ff4ce7 ;
     width: max-content;
     padding: 10px 20px;
     border-radius: 5px;
@@ -84,13 +98,17 @@ nav{
     cursor: pointer;
     transition: background 0.5s;
 }
+
+
+
 .menu-btn a{
     text-decoration: none;
     color: #000000;
 }
 
 .menu-btn:hover{
-    background-color: #00ff4ce7;
+    border:2px solid #ff5500e7;
+    background-color: white;
 }
 
 #menu-icon{
