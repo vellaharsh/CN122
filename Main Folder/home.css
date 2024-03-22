@@ -32,9 +32,9 @@ nav{
 }
 
 .logo{
-    width:80px;
-
+    width:0px;
     color: #000;
+    height: 10px;
     font-size: 25px;
     font-weight: 600;
     text-decoration: none;
@@ -43,10 +43,19 @@ nav{
     color: black;
 }
 
+.pit img{
+    margin-top:-5%;
+    height: 200px;
+    max-width: 200px;
+}
+.pic {
+    display: flex;
+  }
+  
 
 
 .column{
-    margin-top: 21%;
+    margin-top: 15%;
     /* margin:20px; */
     /* padding-left: 15; */
     font-size: 25px;
@@ -156,13 +165,6 @@ nav{
     color: #020202e7;
     transform: translate(-5px);
 }
-/* .btn_btn2{
-    display: inline-block;
-    height: 60px;
-    width: 70px;
-    background: #00ff4ce7;
-    border-radius: 2px solid #00ff4ce7 ;
-} */
 
 .contact-right form{
     width: 100%;
