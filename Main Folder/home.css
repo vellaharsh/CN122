@@ -49,13 +49,16 @@ nav{
     margin-top: 21%;
     /* margin:20px; */
     /* padding-left: 15; */
-    font-size: 30px;
+    font-size: 25px;
     color: #000;
 }
 
 .column p{
-    font-size:35px;
+    font-size:30x;
     margin-top: 20px;
+}
+.column text{
+    width: max-content;
 }
 .column img{
     margin-top: -25%;
