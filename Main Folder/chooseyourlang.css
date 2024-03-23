@@ -119,3 +119,18 @@ button:hover{
     transform: translate(-5px);
 }
 
+.home-button {
+    color: #ffffff;
+    border-color: #ac1100;
+    background-color: #e2492e;
+    padding: 8px 18px;
+    display: inline-block;
+    margin-top: -8px;
+    cursor: pointer;
+  }
+  
+  .home-button:hover {
+    color: #ffffff;
+    border-color: #600900;
+    background-color: #ef2201;
+  }
